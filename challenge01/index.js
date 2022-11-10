@@ -13,11 +13,11 @@ function main() {
 
     // Loop over the data we have split
     for (const line of userDataLines) {
-      // If it's an Empty string, it means that we have all the info of the current user
       if (line !== "") {
         // We need to concat the strings to build all the user data.
         tmpUserDataStr = tmpUserDataStr !== "" ? tmpUserDataStr.concat(" ", line) : line;
       } else {
+        // If it's an Empty string, it means that we have all the info of the current user
         // Split the user string into keypair strings
         // e.g. => 'fll:111 eme:yrfa@gmail.com usr:@codember' into => ['fll:111','eme:yrfa@gmail.com','usr:@codember'']
         // After getting the string keypairs, we map the array to transform every keyPairString into an entry
