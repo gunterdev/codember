@@ -9,6 +9,7 @@ Link de la página del evento: https://codember.dev/.
 | Challenge |                              Respuesta                              |
 | :-------: | :-----------------------------------------------------------------: |
 |    01     | [link](https://github.com/gunterdev/codember/tree/main/challenge01) |
+|    02     | [link](https://github.com/gunterdev/codember/tree/main/challenge02) |
 
 ## Como ejecutar los ejercicios
 
