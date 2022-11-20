@@ -7,19 +7,24 @@ Los mensajes son cadenas de texto que incluyen números enteros muy largos y esp
 Con su método ha conseguido descifrar estos mensajes:
 
 ```js
-"109105100117" -> midu
-"9911110010110998101114" -> codember
-"9911110010110998101114 109105100117" -> codember midu
-"11210897121 116101116114105115" -> play tetris
+Ejemplo 1:
+input: "109105100117"
+output: "midu"
+
+Ejemplo 2:
+input: "9911110010110998101114"
+output: "codember"
+
+Ejemplo 3:
+input: "9911110010110998101114 109105100117"
+output: "codember midu"
+
+Ejemplo 4:
+input: "11210897121 116101116114105115"
+output: "play tetris"
 ```
 
-Pero han interceptado un mensaje más largo que no han podido y nos han dicho que es muy importante que lo descifremos:
-
-```
-11610497110107115 102111114 11210897121105110103 9911110010110998101114 11210810197115101 11510497114101
-```
-
-Ahora que ya sabes esto, https://codember.dev/encrypted.txt
+Pero han interceptado un mensaje más largo que no han podido y nos han dicho que es muy importante que lo descifremos https://codember.dev/encrypted.txt
 
 ## Pistas
 
