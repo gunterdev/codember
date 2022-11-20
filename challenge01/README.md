@@ -15,13 +15,17 @@ Todo está en un fichero donde los datos de usuario son una secuencia de pares `
 Ejemplo de input:
 
 ```js
-let firstUser = "usr:@midudev eme:mi@gmail.com psw:123456 age:22 loc:bcn fll:82";
+Ejemplo 1:
+input: "usr:@midudev eme:mi@gmail.com psw:123456 age:22 loc:bcn fll:82";
 
-let secondUser = "fll:111 eme:yrfa@gmail.com usr:@codember psw:123456 age:21 loc:World";
+Ejemplo 2:
+input: "fll:111 eme:yrfa@gmail.com usr:@codember psw:123456 age:21 loc:World";
 
-let thirdUser = "psw:11133 loc:Canary fll:333 usr:@pheralb eme:pheralb@gmail.com";
+Ejemplo 3:
+input: "psw:11133 loc:Canary fll:333 usr:@pheralb eme:pheralb@gmail.com";
 
-let fourthUser = "usr:@itziar age:19 loc:isle psw:aaa fll:222 eme:itzi@gmail.com";
+Ejemplo 4:
+input: "usr:@itziar age:19 loc:isle psw:aaa fll:222 eme:itzi@gmail.com";
 ```
 
 - El `primer` usuario `SÍ` es válido. Tiene todos los campos.
