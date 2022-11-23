@@ -11,6 +11,7 @@ Link de la página del evento: https://codember.dev/.
 |    01     | [link](https://github.com/gunterdev/codember/tree/main/challenge01) |
 |    02     | [link](https://github.com/gunterdev/codember/tree/main/challenge02) |
 |    03     | [link](https://github.com/gunterdev/codember/tree/main/challenge03) |
+|    04     | [link](https://github.com/gunterdev/codember/tree/main/challenge04) |
 
 ## Como ejecutar los ejercicios
 
