@@ -6,9 +6,9 @@ export const hungerGames = (players) => {
   let alivePlayersIndex = [...players.keys()];
   let startingIndexOfFirstKiller = 0;
   while (alivePlayersIndex.length > 1) {
-    let lastAlivePlayer = alivePlayersIndex.at(-1);
+    let lastAlivePlayerIndex = alivePlayersIndex.at(-1);
     alivePlayersIndex = alivePlayersIndex.filter((_, a) => a % 2 === startingIndexOfFirstKiller);
-    startingIndexOfFirstKiller = lastAlivePlayer === alivePlayersIndex.at(-1) ? 1 : 0;
+    startingIndexOfFirstKiller = lastAlivePlayerIndex === alivePlayersIndex.at(-1) ? 1 : 0;
   }
   // Extract the winner
   const [winnerIndex] = alivePlayersIndex;
