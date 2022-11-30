@@ -59,3 +59,11 @@ La tecnología en el índice 4 es la que ha sobrevivido.
 Ahora, para probar que somos capaces de crear un algoritmo que funcione, tenemos la lista de mecenas de la comunidad de midudev: https://codember.dev/mecenas.json
 
 Tienes que crear un algoritmo que nos diga qué usuario sobreviviría usando el mismo sistema.
+
+El índice de la persona que sobrevive y su nombre de usuario, separado de un guión.
+
+Por ejemplo, si el usuario que sobrevive es facundopacua y está en el índice 8 sería:
+
+```js
+let result = ["facundopacua", 8];
+```
