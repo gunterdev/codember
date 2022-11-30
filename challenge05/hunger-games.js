@@ -1,5 +1,5 @@
 export const hungerGames = (players) => {
-  // guard clauses
+  // Guard clauses
   if (!Array.isArray(players)) throw new TypeError(`${typeof players} is not an array`);
   if (players.length === 0) return null;
   // Actual logic
