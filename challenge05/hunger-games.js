@@ -1,17 +1,11 @@
 export const hungerGames = (players) => {
-  // Guard clauses
-  if (!Array.isArray(players)) throw new TypeError(`${typeof players} is not an array`);
-  if (players.length === 0) return null;
-  // Actual logic
-  let alivePlayersIndex = [...players.keys()];
-  let startingIndexOfFirstKiller = 0;
-  while (alivePlayersIndex.length > 1) {
-    let lastAlivePlayerIndex = alivePlayersIndex.at(-1);
-    alivePlayersIndex = alivePlayersIndex.filter((_, a) => a % 2 === startingIndexOfFirstKiller);
-    startingIndexOfFirstKiller = lastAlivePlayerIndex === alivePlayersIndex.at(-1) ? 1 : 0;
+  let playersl = players.length;
+  let pos = "0";
+  while (playersl > 2) {
+    let half = playersl % 2 === 0 ? 0 : 1;
+    pos += half;
+    playersl = half === 0 ? Math.ceil(playersl / 2) : Math.floor(playersl / 2);
   }
-  // Extract the winner
-  const [winnerIndex] = alivePlayersIndex;
-  // Return the winner name and index position
-  return [players[winnerIndex], winnerIndex];
+  let indexWinner = parseInt(pos.split("").reverse().join(""), 2);
+  return [players[indexWinner], indexWinner];
 };
